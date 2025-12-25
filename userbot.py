@@ -6,9 +6,9 @@ from telethon.tl.functions.messages import ImportChatInviteRequest, CheckChatInv
 from telethon.errors import UserAlreadyParticipantError
 
 # API Credentials
-API_ID = 27815887
-API_HASH = 'dbb31988b20945abd1ee1311f543b19f'
-BOT_TOKEN = '8374477649:AAGbWTlSlf_zthKpfeQXqIyyYu3q9dyArkg'
+API_ID = 278xxxxx
+API_HASH = 'dxb3xx88b209xxxxxxxxxxxxxxxxxxxx'
+BOT_TOKEN = '837xxxxxxx:AAGbWTlSlf_zthKpfeQXxxxxxxxxxxxxxxx'
 
 user_client = TelegramClient('anon', API_ID, API_HASH)
 bot_client = TelegramClient('bot', API_ID, API_HASH)
@@ -221,4 +221,5 @@ async def main():
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
+
     loop.run_until_complete(main())

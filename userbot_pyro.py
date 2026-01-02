@@ -9,9 +9,9 @@ from pyrogram import Client, filters, enums
 from pyrogram.errors import UserAlreadyParticipant, FloodWait
 
 # API Credentials
-API_ID = 27815887
-API_HASH = 'dbb31988b20945abd1ee1311f543b19f'
-BOT_TOKEN = '8374477649:AAGbWTlSlf_zthKpfeQXqIyyYu3q9dyArkg'
+API_ID = 278xxxxx
+API_HASH = 'dbb31988b20xxxxxxxxxxxxxxxxxxxx'
+BOT_TOKEN = '8374477649:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 user_client = Client('anon_pyro', api_id=API_ID, api_hash=API_HASH)
 bot_client = Client('bot_pyro', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -225,4 +225,5 @@ if __name__ == '__main__':
     import pyrogram
     
     loop = asyncio.get_event_loop()
+
     loop.run_until_complete(main())
